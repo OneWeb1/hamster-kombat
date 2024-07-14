@@ -1,0 +1,19 @@
+.specials-tabs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #252525;
+}
+
+.specials-tabs__item {
+  padding: 8px 0px;
+  margin-right: 20px;
+}
+
+.specials-tabs__active-tab {
+  color: gold;
+  border-bottom: 1px solid gold;
+}

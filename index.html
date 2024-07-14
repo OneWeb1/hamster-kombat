@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/styles/modal/modal.css">
+
+
+  <link rel="stylesheet" href="/styles/bottom-navigation/bottomNavigation.css">
+  <link rel="stylesheet" href="/styles/exchange/header.css">
+  <link rel="stylesheet" href="/styles/exchange/main.css">
+  <link rel="stylesheet" href="/styles/mine/tabs/mainTab.css">
+  <link rel="stylesheet" href="/styles/mine/tabs/specialsTab.css">
+
+  <link rel="stylesheet" href="/styles/mine/majorityCards.css">
+  <link rel="stylesheet" href="/styles/mine/specials/MyCards.css">
+
+  <title>ES8 Project</title>
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="app">
+      <div class="window-wrapper exchange active-window">
+        <div class="header">
+          <div class="user-wrapper">
+            <div class="avatar">
+              <img src="/assets/avatar.jpg" alt="avatar" />
+            </div>
+            <div class="username">
+              🇺🇦 VLAD 🇺🇦 (CEO)
+            </div>
+          </div>
+
+          <div class="header-btn">
+            <img src="/assets/binance.png" alt="binance" />Binance
+          </div>
+        </div>
+
+        <main class="main">
+          <div class="main-row__info">
+            <div class="main-box__wrapper">
+              <p class="main-box__title coral">
+                Прибыль за тап
+              </p>
+              <span class="main-box__value fa"><img src="/assets/money.jpg" alt="money" /><span class="profit-tap"></span></span>
+            </div>
+            <div class="main-box__wrapper">
+              <p style="margin-bottom: 4px;" class="main-box__title blueviolet">
+                Монет для апа
+              </p>
+              <span class="main-box__value">1М</span>
+            </div>
+            <div class="main-box__wrapper">
+              <p class="main-box__title seagreen">
+                Прибыль в час
+              </p>
+              <span class="main-box__value fa">
+                <img src="/assets/money.jpg" alt="money" /> <span class="profit-balance"></span>
+              </span>
+            </div>
+          </div>
+          <div class="balance-wrapper">
+            <img class="money" src="/assets/money.jpg" alt="" />
+            <span class="balance">263,659,622</span>
+          </div>
+
+          <div class="level-wrapper">
+            <div class="level-row__top">
+              <div class="level-row__name">
+                <span>Bronze <img src="/assets/arrow-right.png" alt="arrow-right"></span>
+              </div>
+              <div class="level-row__number-wrapper">
+                <span class="level-row__label">Level </span><span class="level-row__number">1/11</span>
+              </div>
+            </div>
+            <div class="level-row__bottom">
+              <div class="level-row__bottom-child">
+
+              </div>
+            </div>
+          </div>
+
+          <div class="tap-wrapper">
+            <div class="ceil-item">
+              <div class="ceil-child__item">
+                <img src="/assets/hamster.png" alt="hamster" />
+              </div>
+            </div>
+          </div>
+
+          <div class="boost-wrapper">
+            <div class="energy-row">
+              <img src="/assets/energy.png" alt="energy" />
+              <span class="energy-number">
+                9000
+              </span>/
+              <span class="energy-max">9000</span>
+            </div>
+            <div class="btn-boost">
+              <img src="/assets/boost.png" alt="boost" /> Boost
+            </div>
+          </div>
+        </main>
+
+        <div class="layout-screen">
+          Layout settings
+        </div>
+        <div class="layout-screen">
+          Layout liderboard
+        </div>
+        <div class="layout-screen">
+          Layout boost
+        </div>
+
+      </div>
+      <div class="window-wrapper mine">
+        <div class="main-tab">
+          <div class="main-tab__item main-tab__active-tab">
+            PR&Team
+          </div>
+          <div class="main-tab__item">
+            Markets
+          </div>
+          <div class="main-tab__item">
+            Legal
+          </div>
+          <div class="main-tab__item">
+            Web3
+          </div>
+          <div class="main-tab__item">
+            Specials
+          </div>
+        </div>
+
+        <div class="cards-window pr&team active-cards__window">
+          <div class="majority-cards__wrapper prteam-cards__wrapper">
+          </div>
+        </div>
+        <div class="cards-window markets">
+          <div class="majority-cards__wrapper markets-cards__wrapper">
+          </div>
+        </div>
+        <div class="cards-window legal">
+          <div class="majority-cards__wrapper legal-cards__wrapper">
+          </div>
+        </div>
+        <div class="cards-window web3">
+          <div class="majority-cards__wrapper web3-cards__wrapper">
+          </div>
+        </div>
+        <div class="cards-window specials">
+          <div class="specials-tabs">
+            <div class="specials-tabs__item specials-tabs__active-tab">
+              My cards
+            </div>
+            <div class="specials-tabs__item">
+              New cards
+            </div>
+            <div class="specials-tabs__item">
+              Missed opportunities
+            </div>
+          </div>
+          <div class="specials-window specials-window__active-window">
+            <div class="cards-wrapper"></div>
+          </div>
+          <div class="specials-window">New Cards</div>
+          <div class="specials-window">Missed opportunities</div>
+
+        </div>
+
+
+      </div>
+      <div class="window-wrapper friends">
+        Friends
+      </div>
+      <div class="window-wrapper earn">
+        Earn
+      </div>
+      <div class="window-wrapper airdrop">
+        Airdrop
+      </div>
+
+
+      <div class="bottom-navigation">
+        <div class="nav-child">
+          <div class="nav-item active-tab">
+            <div class="nav-image">
+              <img src="/assets/bottom-navigation/exchange.png" alt="nav-image">
+            </div>
+            <div class="nav-text">
+              Exchange
+            </div>
+          </div>
+          <div class="nav-item">
+            <div class="nav-image">
+              <img src="/assets/bottom-navigation/mine.png" alt="nav-image">
+            </div>
+            <div class="nav-text">
+              Mine
+            </div>
+          </div>
+          <div class="nav-item">
+            <div class="nav-image">
+              <img src="/assets/bottom-navigation/friends.png" alt="nav-image">
+            </div>
+            <div class="nav-text">
+              Friends
+            </div>
+          </div>
+          <div class="nav-item">
+            <div class="nav-image">
+              <img src="/assets/bottom-navigation/earn.png" alt="nav-image">
+            </div>
+            <div class="nav-text">
+              Earn
+            </div>
+          </div>
+          <div class="nav-item">
+            <div class="nav-image">
+              <img src="/assets/bottom-navigation/airdrop.png" alt="nav-image">
+            </div>
+            <div class="nav-text">
+              Airdrop
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal-wrapper">
+        <div class="modal-relative hide">
+          <div class="modal">
+            <div class="modal-header">
+              <button class="modal-button__close">X</button>
+            </div>
+            <div class="modal-img">
+              <img src="/assets/robo.jpg" alt="robo" />
+            </div>
+            <div class="modal-title">
+              Its time for harvest
+            </div>
+            <div class="modal-description">
+              To many hamster stop losses at the some level
+            </div>
+            <div class="modal-profit">
+              <p>Profit per hour</p>
+              <span class="modal-flex"><img src="/assets/money.jpg" alt="money" /> <span class="modal-profit__money">+295</span></span>
+            </div>
+            <span class="modal-up_per"><img src="/assets/money.jpg" alt="money" /> <span class="modal-profit__price">1,665,346</span></span>
+            <button class="modal-button_up-level" type="submit">Go ahead</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="/src/lib.js"></script>
+  <script src="/src/globals.js"></script>
+
+  <script src="/src/data/mine/cardData.js"></script>
+  <script src="/src/data/mine/PRTeam.js"></script>
+  <script src="/src/data/mine/Markets.js"></script>
+  <script src="/src/data/mine/Legal.js"></script>
+  <script src="/src/data/mine/Web3.js"></script>
+  <script src="/src/data/mine/specials/MyCards.js"></script>
+
+  <script src="/src/components/tap.js"></script>
+
+  <script src="/src/components/bottom-navigation/bottomNavigation.js"></script>
+
+  <script src="/src/components/exchange/main.js"></script>
+  <script src="/src/components/exchange/layout.js"></script>
+
+
+  <script src="/src/components/mine/PRTeamCards.js"></script>
+  <script src="/src/components/mine/MarketsCards.js"></script>
+  <script src="/src/components/mine/LegalCards.js"></script>
+  <script src="/src/components/mine/Web3Cards.js"></script>
+  <script src="/src/components/mine/specials/MyCards.js"></script>
+
+  <script src="/src/components/mine/tabs/mainTab.js"></script>
+  <script src="/src/components/mine/tabs/specialsTab.js"></script>
+
+
+  <script src="/src/components/modal/modal.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
