@@ -29,6 +29,7 @@ const switchActiveTab = (target, idx) => {
 
   currentActiveWindow = windowWrappers[idx]
   currentActiveTab = target
+  currentActiveWindowId = idx
 }
 
 navItems.forEach((item, idx) => {

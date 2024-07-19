@@ -1,0 +1,179 @@
+.friends {}
+
+.friends-title {
+  font-weight: 600;
+  font-size: 34px;
+}
+
+
+.friends-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.friends-box__info {
+  width: 100%;
+  display: flex;
+  font-size: 14px;
+  border-radius: 16px;
+  padding: 10px 5px;
+  background: #262A2F;
+  margin-bottom: 6px;
+  padding-bottom: 18px;
+}
+
+.pb {
+  padding-bottom: 10px;
+}
+
+.friends-box__left-wrapper img {
+  width: 70px;
+  margin-top: -6px;
+  margin-right: 8px;
+}
+
+.friends-box__right-wrapper {}
+
+.friend-box__title {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.friends-box__bottom-row {
+  display: flex;
+  align-items: flex-start;
+  padding-right: 30px;
+  text-align: left;
+}
+
+.friends-box__row-child {
+  display: flex;
+  align-items: center;
+}
+
+.friends-box__bottom-row img {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+
+.friends-box__prize {
+  color: #FED237;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.friends-box__circle {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #FED237;
+  margin-right: 5px;
+}
+
+
+
+.friends-title__more-bonuses {
+  color: #4D52D0;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.friends-header__your-friends {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.friends-header__your-left {}
+
+.friends-header__your-right img {
+  width: 24px;
+}
+
+
+
+.friends-box__empty {
+  width: 100%;
+  padding: 30px 10px;
+  font-size: 16px;
+  border-radius: 16px;
+  background: #272A2F;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  color: #4A4B4D;
+}
+
+
+
+.friends-bottom__buttons-group {
+  position: fixed;
+  width: calc(100% - 20px);
+  height: 60px;
+  display: flex;
+  bottom: 72px;
+  display: flex;
+
+}
+
+.friends-button__redirect-invite {
+  flex: 0 1 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #5A60FF;
+  border-radius: 16px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  animation: scale 1s linear infinite;
+}
+
+.friends-button__redirect-invite img {
+  width: 26px;
+  height: 26px;
+}
+
+.friends-button__copy {
+  flex: 1 1 74px;
+  height: 60px;
+  max-width: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #5A60FF;
+  border-radius: 16px;
+  margin-left: 5px;
+}
+
+.friends-button__copy img {
+  width: 25px;
+}
+
+
+
+
+@keyframes scale {
+  0% {
+    transform: scale(1)
+  }
+
+  50% {
+    transform: scale(.95)
+  }
+
+  100% {
+    transform: scale(1)
+  }
+}

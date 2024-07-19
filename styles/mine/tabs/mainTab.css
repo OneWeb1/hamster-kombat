@@ -4,8 +4,8 @@
   height: 50px;
   top: -20px;
   border-radius: 8px;
-  background: #242424;
-  border: 1px solid #181818;
+  background: #262A2F;
+  border: 1px solid #1E2126;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -26,5 +26,5 @@
 }
 
 .main-tab__active-tab {
-    background: #181818;
+    background: #1C1F24;
 }

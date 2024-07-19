@@ -16,9 +16,9 @@
   align-items: center;
   justify-content: space-between;
   border-radius: 16px;
-  background: #242424;
+  background: #262A2F;
   padding: 4px;
-  border: 1px solid #181818;
+  border: 1px solid #1E2126;
   margin-left: -10px;
 }
 
@@ -47,6 +47,6 @@
 }
 
 .active-tab {
-  background: #181818;
+  background: #1C1F24;
   color: rgba(255, 255, 255, .9);
 }

@@ -1,4 +1,3 @@
-const layoutScreens = document.querySelectorAll('.layout-screen')
 const levelWrapper = document.querySelector('.level-wrapper')
 const btnHeader = document.querySelector('.header-btn')
 const btnBoost = document.querySelector('.btn-boost')
@@ -16,7 +15,9 @@ btnHeader.addEventListener('click', () => {
 })
 
 levelWrapper.addEventListener('click', () => {
-    switchActiveLayout(1)
+  switchActiveLayout(1)
+  currentLiderboardLevelNumber = currentLevelNumber-1
+  renderLiderboard(liderboardData[currentLiderboardLevelNumber])
 })
 
 btnBoost.addEventListener('click', () => {

@@ -19,7 +19,8 @@ const cardHTML = (obj, id) => {
     openedMyCardsObj = {
       ...myCards[idx],
       target,
-      id: idx
+      id: idx,
+      type: 'mine'
     }
 
     showModal()

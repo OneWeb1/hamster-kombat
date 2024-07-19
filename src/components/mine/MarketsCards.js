@@ -19,7 +19,8 @@ const marketsCardHTML = (obj, id) => {
     openedMyCardsObj = {
       ...marketsCards[idx],
       target,
-      id: idx
+      id: idx,
+      type: 'mine'
     }
 
     showModal()
@@ -28,7 +29,7 @@ const marketsCardHTML = (obj, id) => {
 
 
   return `<div class="card" style="height: 120px;">
-        <div style="background: #282828; animation: none;" class="bg "></div>
+        <div style="background: #262A2F; animation: none;" class="bg "></div>
         <div class="card-child" style="display: flex; padding: 10px;">
           <div style="width: 50px; height: 50px;filter: hue-rotate(${hueRotate}deg); margin:0; margin-right:15px" class="img-wrapper">
             <img style="object-position: 0 0px" src="/assets/robo.jpg" alt="robo" />
